@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: DynaPuff,sans-serif;
+}
+header {
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 15px;
+    text-align: center;
+    color:#FF8B00;
+    background-color: #101010;
+    font-size: 20px;
+}
+header a {
+    text-decoration: none;
+    color:#FF8B00;
+}
+.left_header {
+    position: fixed;
+    left: 0;
+    margin-bottom:1.25rem;
+    justify-content: center;
+    padding: 0;
+}
+.right_header {
+    position: fixed;
+    right: 0;
+}
+.mid_header, .right_header {
+    padding-top: 1.25rem;
+}
+.mid_header {
+    text-align: center;
+    width: 400px;
+    height:40px;
+}
+.Preview {
+    margin: 0;
+    padding-top: 3.75rem;
+    position: relative;
+    background-image: url('pict/main2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    text-align: center;
+    
+}
+.Preview:hover {
+    opacity:0.8;
+}
+.Preview h1 {
+    margin: 0;
+    color: #FF8B00;
+}
+.Preview .background {
+    width: 1000px;
+    height: 700px;
+    opacity: 1;
+    margin: 6.25rem;
+}
+.start_bio {
+    color: #555350;
+    font-size: 12px;
+}
+.btn_free {
+    color: azure;
+    border-radius: 8px;
+    background-color: #FF8B00;
+    border-color: #FF8B00;
+    width: 200px;
+    height: 50px;
+    
+}
+.buy_ct {
+    display: flex;
+    justify-content: center;
+    background-color: #101010;
+    color: azure;
+    gap: 35px;
+
+}
+.buy_first, .buy_second, .buy_third {
+    text-align: center;
+
+}
+.buy_ct .advantages {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+.with_btn_buy {
+    background-color: #101010;
+}
+.btn_buy {
+    text-align: center;
+    color: azure;
+    border-radius: 8px;
+    background-color: #FF8B00;
+    border-color: #FF8B00;
+    width: 10.938rem;
+    height: 3.125rem;
+    margin: 0 auto;
+    display: block;
+    font-size: 25px;
+}
+.btn_buy:hover {
+    opacity: 0.8;
+}
+.About {
+    color: azure;
+    background-color: #101010;
+    line-height: 30px;
+}
+.About h3 {
+    margin: 0;
+}
+.About p {
+    margin:0;
+}
+.Support {
+    padding-top: 1.25rem;
+    background-color: #101010;
+    color: azure;
+    line-height: 1.875rem;
+    text-align: center;
+}
+.Support h3 {
+    margin:0;
+}
+.Support input {
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid azure;
+    background-color: #FF8B00;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+.Support button {
+    background-color: #FF8B00;
+    color: azure;
+    width: 100px;
+    height:30px;
+    border:none;
+    border-radius: 3px;
+}
+aside {
+    color: azure;
+    background-color: #101010;
+}
+aside h3 {
+    margin-top: 0;
+}
+blockquote {
+    box-shadow: 0 0 12px #000;
+    background-color: azure;
+    border-radius: 12px;
+}
+.anonime_comment {
+    box-shadow: 0 0 12px #000;
+    border-radius: 12px;
+    color: #101010;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.anonime_comment img {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 20px;
+    border:2px solid #101010;
+    margin:5px;
+}
+.user_comment {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.user_name_logo {
+    display: inline-flex;
+}
+blockquote {
+    margin-bottom: 0;
+    padding: 5px;
+}
+footer {
+    background-color: #101010;
+    color: azure;
+    padding: 20px;
+}
+.footer_p {
+    
+    margin: 0;
+    padding: 0;
+}
